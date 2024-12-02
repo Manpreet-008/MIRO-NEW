@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+<!-- First section -->
+<section>
+  <div class="relative w-full  h-[600px] md:h-[500px] xl:h-[850px] grid grid-cols-1 md:grid-cols-2">
+    <!-- Left Section with Background Video -->
+    <div class="relative h-full w-full">
+      <video autoplay muted loop class="absolute inset-0 h-full w-full object-cover">
+        <source src="assets/images/video-index8.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <!-- Right Section with Background Image -->
+    <div class="relative h-full w-full bg-cover bg-center bg-[url(assets/images/banner-video.jpg)]">
+    </div>
+  
+    <!-- Centered Content Section -->
+    <div class="absolute inset-0 flex items-center justify-center text-center text-white px-4">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Meticulously Designed Every Detail</h1>
+        <p class="text-lg md:text-xl mb-6">Lorem dolor viverra ipsum aliquet bibendum eget dictum.</p>
+        <a href="#" class="
+        font-lato text-xsm md:text-md font-normal tracking-[1.8px] text-white hover:text-black px-6 xl:px-8 py-2 md:py-4
+        bg-black uppercase hover:bg-transparent border-black inline-block border-2 border-solid duration-300 rounded-md mt-6 md:mt-[20px] max-lg:hidden
+      ">SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<!-- End Code -->
+</body>
+
+</html>
